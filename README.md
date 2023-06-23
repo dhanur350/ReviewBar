@@ -1,3 +1,10 @@
+# ReviewBar Component
+
+- React Component ReviewBar developed by :-
+- [dhanur350](https://github.com/dhanur350/)
+- [Ayushgautam2401](https://github.com/Ayushgautam2401)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

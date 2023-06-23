@@ -1,0 +1,44 @@
+.circle_container {
+    position: relative;
+    width: 100%;
+    height: 20px;
+
+    .progress-bar {
+        position: relative;
+        width: 100%;
+        height: 20px;
+        background-color: #e0e0e0;
+        transform: rotate(0.2deg);
+        border-radius: 4px;
+        overflow: hidden;
+        cursor: pointer;
+        clip-path: polygon(100% 0%, 100% 0%, 100% 90%, -36% 100%);
+
+
+        .progress-bar-fill {
+            width: 100%;
+            height: 100%;
+            background-color: #4caf50;
+            /* transition: width 0.3s ease-in-out; */
+            position: absolute;
+            left: 0;
+            top: 0;
+            /* Add this line to ensure the progress bar fill starts from the top */
+            clip-path: polygon(100% 0%, 100% 0%, 100% 90%, -36% 100%);
+            z-index: 0;
+        }
+    }
+
+    .circle {
+        position: absolute;
+        top: 0px;
+        transform: translateX(-50%);
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: blue;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+}
