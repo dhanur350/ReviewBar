@@ -5,9 +5,9 @@
 - [Ayushgautam2401](https://github.com/Ayushgautam2401)
 
 
-# Getting Started with Create React App
+# Getting Started with ReviewBar React App Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project component was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
